@@ -12,19 +12,19 @@ Building on the first version, this iteration adds functionality to save and reu
    ```bash
    python version2.py
 
-**Enter a Message to Encrypt:**
+2. **Enter a Message to Encrypt:**
 
 The script will prompt you to input a message. It will validate the input and display the encrypted version.
 
-**Enter a Message to Decrypt:**
+3. **Enter a Message to Decrypt:**
 
 Enter the previously encrypted message to see the original message. The script will validate the input before decrypting.
 
 **Example**
 
-Input: Hello, World!
-
+Input: Hello, World!  
 Encrypted: %X1o*,&Jk/z8
 
 **Learnings**
+
 This version taught me how to handle file I/O in Python and the importance of validating user input to prevent errors.
