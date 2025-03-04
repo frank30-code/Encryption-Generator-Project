@@ -1,12 +1,35 @@
 # Version 3: RSA Encryption
 
 ## Overview
-This version replaces the substitution cipher with RSA encryption, a widely adopted public-key encryption standard. The script generates and uses RSA keys to encrypt and decrypt messages securely.
+This script demonstrates basic RSA encryption and decryption using the cryptography library. RSA is an asymmetric encryption algorithm that uses a pair of keys: a public key for encryption and a private key for decryption.
 
 ## Key Features
 - **RSA Encryption:** Utilizes RSA for secure public-key encryption.
 - **Key Generation and Storage:** Generates RSA key pairs and saves them in `.pem` files for reuse.
 - **Secure Padding:** Implements OAEP padding with SHA-256 hashing for robust security.
+
+## Usage
+**Key Generation:**
+
+Generates an RSA key pair (public and private keys).
+
+Saves the keys to files (private_key.pem and public_key.pem).
+
+**Encryption:**
+
+Prompts the user to enter a plaintext message.
+
+Encrypts the message using the public key.
+
+Prints the encrypted message (ciphertext).
+
+**Decryption:**
+
+Prompts the user to specify if they want to decrypt the message.
+
+Decrypts the message using the private key.
+
+Prints the decrypted message (plaintext).
 
 ## How to Use
 1. **Run the Script:**
