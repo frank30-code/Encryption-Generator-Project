@@ -22,8 +22,7 @@ You can enter the previously encrypted message to see the original message.
 
 **Example**
 
-Input: Hello, World!
-
+Input: Hello, World!  
 Encrypted: %X1o*,&Jk/z8
 
 **Learnings**
