@@ -26,12 +26,3 @@ The Encryption Generator Project focuses on encrypting and decrypting messages u
    - Introduces a menu-driven interface for better usability.
    - Enables retrieval and decryption of saved messages by label.
 
----
-
-## How to Use
-
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/your-username/Encryption-Generator-Project.git
-   cd Encryption-Generator-Project
-
